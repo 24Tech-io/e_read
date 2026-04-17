@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import ePub from "epubjs";
 
-const BOOK_URL = "/sound_waves-malayalam.epub";
+const BOOK_URL = "/hindi.epub";
 const MIN_FONT_SIZE = 80;
 const MAX_FONT_SIZE = 160;
 const DEFAULT_FONT_SIZE = 100;

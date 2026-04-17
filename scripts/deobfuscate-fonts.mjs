@@ -4,7 +4,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 
 const rootDir = process.cwd();
-const epubPath = path.join(rootDir, "public", "sound_waves-malayalam.epub");
+const epubPath = path.join(rootDir, "public", "hindi.epub");
 const outDir = path.join(rootDir, "public", "fonts");
 const identifier = "urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b";
 const files = [
