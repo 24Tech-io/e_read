@@ -384,7 +384,7 @@ function App() {
         </header>
 
         <div className="status-row" aria-live="polite">
-          <span>{isReady ? `Reading progress: ${progress}%` : "Loading book..."}</span>
+          <span>{isReady ? "Ready to read" : "Loading book..."}</span>
           <span>{theme === "light" ? "Light mode" : "Dark mode"}</span>
         </div>
 
