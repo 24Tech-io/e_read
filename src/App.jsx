@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import ePub from "epubjs";
 
 const BOOK_URL = "/hindi.epub";
+const FALLBACK_BOOK_TITLE =
+  BOOK_URL.split("/").pop()?.replace(/\.epub$/i, "").replace(/[-_]+/g, " ") ?? "Reader";
 const MIN_FONT_SIZE = 80;
 const MAX_FONT_SIZE = 160;
 const DEFAULT_FONT_SIZE = 100;
@@ -172,7 +174,7 @@ function App() {
   const renditionRef = useRef(null);
   const locationRef = useRef(null);
   const resizeTimerRef = useRef(null);
-  const [bookTitle, setBookTitle] = useState("Reader");
+  const [bookTitle, setBookTitle] = useState(FALLBACK_BOOK_TITLE);
   const [isReady, setIsReady] = useState(false);
   const [error, setError] = useState("");
   const [progress, setProgress] = useState(0);
@@ -182,6 +184,10 @@ function App() {
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
   }, [theme]);
+
+  useEffect(() => {
+    document.title = bookTitle;
+  }, [bookTitle]);
 
   useEffect(() => {
     if (!renditionRef.current) {
