@@ -1,0 +1,296 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica-Bold
+FamilyName:Helvetica
+StyleName:Bold
+FullName:Helvetica Bold
+MenuName:Helvetica
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\HELR65W.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:83980
+FileModTime:904655446
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Helvetica Bold
+NameArray:0,Win,1,Helvetica
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaNeueLTStd-BdCn
+FamilyName:Helvetica Neue LT Std
+StyleName:77 Bold Condensed
+FullName:Helvetica Neue LT Std 77 Bold Condensed
+MenuName:HelveticaNeueLT Std Cn
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\HELVETICANEUELTSTD-BDCN.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:29268
+FileModTime:1343815770
+WeightClass:700
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,18,HelveticaNeueLT Std Bold Cn
+NameArray:0,Mac,4,Helvetica Neue LT Std 77 Bold Condensed
+NameArray:0,Win,1,HelveticaNeueLT Std Cn
+NameArray:0,Win,16,Helvetica Neue LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaNeueLTStd-LtCn
+FamilyName:Helvetica Neue LT Std
+StyleName:47 Light Condensed
+FullName:Helvetica Neue LT Std 47 Light Condensed
+MenuName:HelveticaNeueLT Std Lt Cn
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\HELVETICANEUELTSTD-LTCN.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:28652
+FileModTime:1193845232
+WeightClass:300
+WidthClass:3
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,18,HelveticaNeueLT Std Lt Cn
+NameArray:0,Mac,4,Helvetica Neue LT Std 47 Light Condensed
+NameArray:0,Win,1,HelveticaNeueLT Std Lt Cn
+NameArray:0,Win,16,Helvetica Neue LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaNeueLTStd-Cn
+FamilyName:Helvetica Neue LT Std
+StyleName:57 Condensed
+FullName:Helvetica Neue LT Std 57 Condensed
+MenuName:HelveticaNeueLT Std Cn
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\HelveticaNeueLTStd-Cn.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:29504
+FileModTime:1193845230
+WeightClass:400
+WidthClass:3
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,18,HelveticaNeueLT Std Cn
+NameArray:0,Mac,4,Helvetica Neue LT Std 57 Condensed
+NameArray:0,Win,1,HelveticaNeueLT Std Cn
+NameArray:0,Win,16,Helvetica Neue LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:K0VKSquareDemi-DemiBold
+FamilyName:K0VKSquareDemi
+StyleName:DemiBold
+FullName:K0VKSquareDemi DemiBold
+MenuName:K0VKSquareDemi
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\K0VKSQUAREDEMI.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:78124
+FileModTime:1329537242
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,K0VKSquareDemi DemiBold
+NameArray:0,Win,1,K0VKSquareDemi
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ML-TKanimozhi-Bold
+FamilyName:ML-TKanimozhi
+StyleName:Bold
+FullName:ML-TKanimozhi Bold
+MenuName:ML-TKanimozhi
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\ML-TKANIMOZHI BOLD_0.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:84052
+FileModTime:1387322902
+WeightClass:700
+WidthClass:6
+AngleClass:0
+NameArray:0,Mac,4,ML-TKanimozhi Bold
+NameArray:0,Win,1,ML-TKanimozhi
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ML-TKanimozhi-Italic
+FamilyName:ML-TKanimozhi
+StyleName:Italic
+FullName:ML-TKanimozhi Italic
+MenuName:ML-TKanimozhi
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\ML-TKANIMOZHI ITALIC.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:42016
+FileModTime:1387325582
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,ML-TKanimozhi Italic
+NameArray:0,Win,1,ML-TKanimozhi
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ML-TKanimozhi
+FamilyName:ML-TKanimozhi
+StyleName:Regular
+FullName:ML-TKanimozhi
+MenuName:ML-TKanimozhi
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\ML-TKANIMOZHI_0.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:88892
+FileModTime:1387322882
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,ML-TKanimozhi
+NameArray:0,Win,1,ML-TKanimozhi
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:217280
+FileModTime:1329287026
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica-Condensed
+FamilyName:Helvetica Condensed
+StyleName:Regular
+FullName:Helvetica Condensed
+MenuName:Helvetica Condensed
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\PS_0.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:55992
+FileModTime:971876164
+WeightClass:400
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Helvetica Condensed
+NameArray:0,Win,1,Helvetica Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SymbolMT
+FamilyName:Symbol
+StyleName:Regular
+FullName:Symbol
+MenuName:Symbol
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\SYMBOL_0.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:69464
+FileModTime:998568000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Symbol
+NameArray:0,Win,1,Symbol
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TimesNewRomanPSMT
+FamilyName:Times New Roman
+StyleName:Regular
+FullName:Times New Roman
+MenuName:Times New Roman
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\user-pc\Desktop\work file Folder\Document fonts\TIMES_0.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:836380
+FileModTime:1244669200
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Times New Roman
+NameArray:0,Win,1,Times New Roman
+%EndFont
+

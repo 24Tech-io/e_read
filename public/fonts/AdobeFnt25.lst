@@ -1,0 +1,298 @@
+%!Adobe-FontList 1.25
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AGaramondPro-Bold
+FamilyName:Adobe Garamond Pro
+StyleName:Bold
+MenuName:Adobe Garamond Pro Bold
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Adobe Garamond Pro Bold
+WritingScript:Roman
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/AGaramondPro-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:75376
+FileModTime:349267260
+DesignSize:120
+NameArray:0,Mac,4,Adobe Garamond Pro Bold
+NameArray:0,Win,1,Adobe Garamond Pro Bold
+NameArray:0,Win,16,Adobe Garamond Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/AdobeFnt14.lst
+FileLength:4645
+FileModTime:797767782
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/AdobeFnt25.lst
+FileLength:6414
+FileModTime:798070363
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DV-TTSurekh-Bold
+FamilyName:DV-TTSurekh
+StyleName:Bold
+MenuName:DV-TTSurekh
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:DV-TTSurekh Bold
+WritingScript:Roman
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/DVSR0BTT.TTF
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:52832
+FileModTime:305677464
+NameArray:0,Mac,4,DV-TTSurekh Bold
+NameArray:0,Win,1,DV-TTSurekh
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DVTTSurekhNormal
+FamilyName:DV-TTSurekh
+StyleName:Normal
+MenuName:DV-TTSurekh
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:DV-TTSurekh Normal
+WritingScript:Roman
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/DVSR0NTT.TTF
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:53560
+NameArray:0,Mac,4,DV-TTSurekh Normal
+NameArray:0,Win,1,DV-TTSurekh
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ML-TKanimozhi-Bold
+FamilyName:ML-TKanimozhi
+StyleName:Bold
+MenuName:ML-TKanimozhi
+StyleBits:2
+WeightClass:700
+WidthClass:6
+AngleClass:0
+FullName:ML-TKanimozhi Bold
+WritingScript:Roman
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/ML-TKanimozhi Bold_1.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:84052
+FileModTime:409015702
+NameArray:0,Mac,4,ML-TKanimozhi Bold
+NameArray:0,Win,1,ML-TKanimozhi
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ML-TKanimozhi
+FamilyName:ML-TKanimozhi
+StyleName:Regular
+MenuName:ML-TKanimozhi
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:ML-TKanimozhi
+WritingScript:Roman
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/ML-TKanimozhi_1.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:88892
+FileModTime:409015682
+NameArray:0,Mac,4,ML-TKanimozhi
+NameArray:0,Win,1,ML-TKanimozhi
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:217280
+FileModTime:350979826
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ArialMT
+FamilyName:Arial
+StyleName:Regular
+MenuName:Arial
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Arial
+WritingScript:Roman
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/arial_2.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:774476
+FileModTime:266361946
+NameArray:0,Mac,4,Arial
+NameArray:0,Win,1,Arial
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica
+FamilyName:Helvetica
+StyleName:Regular
+MenuName:Helvetica
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Helvetica
+WritingScript:Roman
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/helr45w_0.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:83644
+NameArray:0,Mac,4,Helvetica
+NameArray:0,Win,1,Helvetica
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica-Bold
+FamilyName:Helvetica
+StyleName:Bold
+MenuName:Helvetica
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Helvetica Bold
+WritingScript:Roman
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/helr65w_0.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:83980
+NameArray:0,Mac,4,Helvetica Bold
+NameArray:0,Win,1,Helvetica
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TimesNewRomanPSMT
+FamilyName:Times New Roman
+StyleName:Regular
+MenuName:Times New Roman
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Times New Roman
+WritingScript:Roman
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/times_1.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:836380
+FileModTime:266362000
+NameArray:0,Mac,4,Times New Roman
+NameArray:0,Win,1,Times New Roman
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Wingdings-Regular
+FamilyName:Wingdings
+StyleName:Regular
+MenuName:Wingdings
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Wingdings
+WritingScript:Roman
+OutlineFileName:/Users/sanoopks/Documents/design files/ONLINE/HINDI - work file Folder/Document fonts/wingding_2.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:81000
+FileModTime:20271600
+NameArray:0,Mac,4,Wingdings
+NameArray:0,Win,1,Wingdings
+%EndFont
+

@@ -4,21 +4,22 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 
 const rootDir = process.cwd();
-const epubPath = path.join(rootDir, "public", "hindi.epub");
+const epubPath = path.join(rootDir, "public", "physics.epub");
 const outDir = path.join(rootDir, "public", "fonts");
 const identifier = "urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b";
 const files = [
-  { source: "OEBPS/font/AGaramondPro-Bold.otf", target: "AGaramondPro-Bold.otf" },
-  { source: "OEBPS/font/ArialMT.ttf", target: "ArialMT.ttf" },
-  { source: "OEBPS/font/DV-TTSurekh-Bold.TTF", target: "DV-TTSurekh-Bold.TTF" },
-  { source: "OEBPS/font/DVTTSurekhNormal.TTF", target: "DVTTSurekhNormal.TTF" },
-  { source: "OEBPS/font/Helvetica.ttf", target: "Helvetica.TTF" },
-  { source: "OEBPS/font/Helvetica-Bold.ttf", target: "Helvetica-Bold.TTF" },
+  { source: "OEBPS/font/Helvetica-Bold.TTF", target: "Helvetica-Bold.TTF" },
+  { source: "OEBPS/font/Helvetica-Condensed.TTF", target: "Helvetica-Condensed.TTF" },
   { source: "OEBPS/font/HelveticaNeueLTStd-BdCn.OTF", target: "HelveticaNeueLTStd-BdCn.OTF" },
-  { source: "OEBPS/font/ML-TKanimozhi.ttf", target: "ML-TKanimozhi.TTF" },
-  { source: "OEBPS/font/ML-TKanimozhi-Bold.ttf", target: "ML-TKanimozhi-Bold.TTF" },
-  { source: "OEBPS/font/TimesNewRomanPSMT.ttf", target: "TimesNewRomanPSMT.TTF" },
-  { source: "OEBPS/font/Wingdings-Regular.ttf", target: "Wingdings-Regular.ttf" },
+  { source: "OEBPS/font/HelveticaNeueLTStd-Cn.otf", target: "HelveticaNeueLTStd-Cn.otf" },
+  { source: "OEBPS/font/HelveticaNeueLTStd-LtCn.OTF", target: "HelveticaNeueLTStd-LtCn.OTF" },
+  { source: "OEBPS/font/K0VKSquareDemi-DemiBold.TTF", target: "K0VKSquareDemi-DemiBold.TTF" },
+  { source: "OEBPS/font/MinionPro-Regular.otf", target: "MinionPro-Regular.otf" },
+  { source: "OEBPS/font/ML-TKanimozhi-Bold.TTF", target: "ML-TKanimozhi-Bold.TTF" },
+  { source: "OEBPS/font/ML-TKanimozhi-Italic.TTF", target: "ML-TKanimozhi-Italic.TTF" },
+  { source: "OEBPS/font/ML-TKanimozhi.TTF", target: "ML-TKanimozhi.TTF" },
+  { source: "OEBPS/font/SymbolMT.TTF", target: "SymbolMT.TTF" },
+  { source: "OEBPS/font/TimesNewRomanPSMT.TTF", target: "TimesNewRomanPSMT.TTF" },
 ];
 
 fs.mkdirSync(outDir, { recursive: true });

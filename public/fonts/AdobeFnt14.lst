@@ -1,0 +1,242 @@
+%!Adobe-FontList 1.14
+%Locale:0x4009
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica-Bold
+FamilyName:Helvetica
+StyleName:Bold
+FullName:Helvetica Bold
+MenuName:Helvetica
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\HELR65W.TTF
+DataFormat:sfntData
+FileLength:83980
+FileModTime:904655446
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaNeueLTStd-BdCn
+FamilyName:Helvetica Neue LT Std
+StyleName:77 Bold Condensed
+FullName:Helvetica Neue LT Std 77 Bold Condensed
+MenuName:HelveticaNeueLT Std Cn
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\HELVETICANEUELTSTD-BDCN.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:29268
+FileModTime:1343815770
+WeightClass:700
+WidthClass:3
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaNeueLTStd-Cn
+FamilyName:Helvetica Neue LT Std
+StyleName:57 Condensed
+FullName:Helvetica Neue LT Std 57 Condensed
+MenuName:HelveticaNeueLT Std Cn
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\HelveticaNeueLTStd-Cn.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:29504
+FileModTime:1193845230
+WeightClass:400
+WidthClass:3
+AngleClass:0
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaNeueLTStd-LtCn
+FamilyName:Helvetica Neue LT Std
+StyleName:47 Light Condensed
+FullName:Helvetica Neue LT Std 47 Light Condensed
+MenuName:HelveticaNeueLT Std Lt Cn
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\HELVETICANEUELTSTD-LTCN.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:28652
+FileModTime:1193845232
+WeightClass:300
+WidthClass:3
+AngleClass:0
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:K0VKSquareDemi-DemiBold
+FamilyName:K0VKSquareDemi
+StyleName:DemiBold
+FullName:K0VKSquareDemi DemiBold
+MenuName:K0VKSquareDemi
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\K0VKSQUAREDEMI.TTF
+DataFormat:sfntData
+FileLength:78124
+FileModTime:1329537242
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1329287026
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ML-TKanimozhi-Bold
+FamilyName:ML-TKanimozhi
+StyleName:Bold
+FullName:ML-TKanimozhi Bold
+MenuName:ML-TKanimozhi
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\ML-TKANIMOZHI BOLD_0.TTF
+DataFormat:sfntData
+FileLength:84052
+FileModTime:1387322902
+WeightClass:700
+WidthClass:6
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ML-TKanimozhi-Italic
+FamilyName:ML-TKanimozhi
+StyleName:Italic
+FullName:ML-TKanimozhi Italic
+MenuName:ML-TKanimozhi
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\ML-TKANIMOZHI ITALIC.TTF
+DataFormat:sfntData
+FileLength:42016
+FileModTime:1387325582
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ML-TKanimozhi
+FamilyName:ML-TKanimozhi
+StyleName:Regular
+FullName:ML-TKanimozhi
+MenuName:ML-TKanimozhi
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\ML-TKANIMOZHI_0.TTF
+DataFormat:sfntData
+FileLength:88892
+FileModTime:1387322882
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica-Condensed
+FamilyName:Helvetica Condensed
+StyleName:Regular
+FullName:Helvetica Condensed
+MenuName:Helvetica Condensed
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\PS_0.TTF
+DataFormat:sfntData
+FileLength:55992
+FileModTime:971876164
+WeightClass:400
+WidthClass:3
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SymbolMT
+FamilyName:Symbol
+StyleName:Regular
+FullName:Symbol
+MenuName:Symbol
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\SYMBOL_0.TTF
+DataFormat:sfntData
+FileLength:69464
+FileModTime:998568000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TimesNewRomanPSMT
+FamilyName:Times New Roman
+StyleName:Regular
+FullName:Times New Roman
+MenuName:Times New Roman
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:Z:\2026\ONLINE SLUG\ONLINE\work file Folder\Document fonts\TIMES_0.TTF
+DataFormat:sfntData
+FileLength:836380
+FileModTime:1244669200
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+

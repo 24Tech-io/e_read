@@ -1,12 +1,69 @@
 import React, { useEffect, useRef, useState } from "react";
 import ePub from "epubjs";
 
-const BOOK_URL = "/hindi.epub";
+const BOOK_URL = "/physics.epub";
 const FALLBACK_BOOK_TITLE =
   BOOK_URL.split("/").pop()?.replace(/\.epub$/i, "").replace(/[-_]+/g, " ") ?? "Reader";
 const MIN_FONT_SIZE = 80;
 const MAX_FONT_SIZE = 160;
 const DEFAULT_FONT_SIZE = 100;
+
+function getImageScale(fontSize) {
+  return Math.max(0.8, fontSize / 100);
+}
+
+function rememberSize(element, property, key) {
+  if (!element || element.dataset[key]) {
+    return;
+  }
+
+  const value = window.getComputedStyle(element)[property];
+  const numericValue = Number.parseFloat(value);
+
+  if (Number.isFinite(numericValue) && numericValue > 0) {
+    element.dataset[key] = String(numericValue);
+  }
+}
+
+function scaleMeasuredSize(element, property, key, scale) {
+  const baseValue = Number.parseFloat(element?.dataset[key] ?? "");
+
+  if (!Number.isFinite(baseValue) || baseValue <= 0) {
+    return;
+  }
+
+  element.style.setProperty(property, `${baseValue * scale}px`, "important");
+}
+
+function applyImageScale(contents, fontSize) {
+  const scale = getImageScale(fontSize);
+  const doc = contents?.document;
+
+  if (!doc) {
+    return;
+  }
+
+  const images = doc.querySelectorAll("img");
+
+  images.forEach((image) => {
+    rememberSize(image, "width", "readerBaseWidth");
+    rememberSize(image, "height", "readerBaseHeight");
+    scaleMeasuredSize(image, "width", "readerBaseWidth", scale);
+    scaleMeasuredSize(image, "height", "readerBaseHeight", scale);
+    image.style.setProperty("max-width", "100%", "important");
+    image.style.setProperty("height", "auto", "important");
+
+    const wrapper = image.parentElement;
+
+    if (wrapper instanceof HTMLElement) {
+      rememberSize(wrapper, "width", "readerBaseWidth");
+      rememberSize(wrapper, "height", "readerBaseHeight");
+      scaleMeasuredSize(wrapper, "width", "readerBaseWidth", scale);
+      scaleMeasuredSize(wrapper, "height", "readerBaseHeight", scale);
+      wrapper.style.setProperty("max-width", "100%", "important");
+    }
+  });
+}
 const FONT_FIX_CSS = `
   @font-face {
     font-family: "Adobe Garamond Pro Bold";
@@ -145,6 +202,14 @@ const FONT_FIX_CSS = `
   }
 
   @font-face {
+    font-family: "Symbol";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/SymbolMT.TTF") format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
     font-family: "Times New Roman";
     font-style: normal;
     font-weight: 400;
@@ -174,6 +239,7 @@ function App() {
   const renditionRef = useRef(null);
   const locationRef = useRef(null);
   const resizeTimerRef = useRef(null);
+  const fontSizeRef = useRef(DEFAULT_FONT_SIZE);
   const [bookTitle, setBookTitle] = useState(FALLBACK_BOOK_TITLE);
   const [isReady, setIsReady] = useState(false);
   const [error, setError] = useState("");
@@ -190,11 +256,16 @@ function App() {
   }, [bookTitle]);
 
   useEffect(() => {
+    fontSizeRef.current = fontSize;
+
     if (!renditionRef.current) {
       return;
     }
 
     renditionRef.current.themes.fontSize(`${fontSize}%`);
+    renditionRef.current.getContents().forEach((contents) => {
+      applyImageScale(contents, fontSizeRef.current);
+    });
   }, [fontSize]);
 
   useEffect(() => {
@@ -262,6 +333,10 @@ function App() {
       return undefined;
     }
 
+    setIsReady(false);
+    setError("");
+    setProgress(0);
+
     const book = ePub(BOOK_URL);
     const rendition = book.renderTo(viewerRef.current, {
       width: "100%",
@@ -281,10 +356,13 @@ function App() {
         "-webkit-text-size-adjust": "100%",
         "padding": "0 0 2rem",
         "transition": "background 160ms ease, color 160ms ease",
+        "--reader-image-scale": `${getImageScale(DEFAULT_FONT_SIZE)}`,
       },
       "img, svg": {
-        "max-width": "100%",
-        "height": "auto",
+        "display": "block",
+        "width": "auto !important",
+        "max-width": "100% !important",
+        "height": "auto !important",
       },
     });
     rendition.themes.fontSize(`${DEFAULT_FONT_SIZE}%`);
@@ -299,6 +377,7 @@ function App() {
         }
       `;
       contents.document.head.appendChild(style);
+      applyImageScale(contents, fontSize);
     });
 
     const onRelocated = (location) => {
